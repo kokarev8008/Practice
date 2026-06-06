@@ -1,0 +1,27 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/kokarev8008/Practice#readme",
+  "bugs": {
+    "url": "https://github.com/kokarev8008/Practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokarev8008/Practice.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.2"
+  }
+}
