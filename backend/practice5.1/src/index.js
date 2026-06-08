@@ -21,9 +21,8 @@ async function saveDataUsers(users) {
 async function getDataUsers() {
     try {
         const dataText = await fs.readFile(dataPath, "utf8");
+        return JSON.parse(dataText);
     } catch (error) {
         console.log(error);
     }
-
-    return JSON.parse(dataText);
 }
